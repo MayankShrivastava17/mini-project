@@ -1,3 +1,1 @@
 # Trail
-
-Installed cuda
