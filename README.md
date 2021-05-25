@@ -1,4 +1,3 @@
-# Random-Things
+# Mini Project
 
-
-In this repo, i post some random codes that I created during my free times.
+These are some mini project in python for beginners.
