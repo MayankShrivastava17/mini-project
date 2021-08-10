@@ -5,7 +5,7 @@ from gtts import gTTS
 from playsound import playsound
 
 
-################### Initialized window####################
+################### Initialized window ####################
 
 root = Tk()
 root.geometry('350x300')
@@ -21,7 +21,7 @@ Label(root, text = 'TEXT_TO_SPEECH' , font='arial 20 bold' , bg ='white smoke').
     
     
 #label
-Label(root, text ='Enter Text', font ='arial 15 bold', bg ='white smoke').place(x=20,y=60)
+Label(root, text ='Enter Text ', font ='arial 15 bold', bg ='white smoke').place(x=20,y=60)
 
 
 ##text variable
@@ -45,7 +45,7 @@ def Exit():
     root.destroy()
             
 def Reset():
-    Msg.set("")
+    Msg.set(" ")
                 
 #Button
 Button(root, text = "PLAY" , font = 'arial 15 bold', command = Text_to_speech, width =4).place(x=25, y=140)
