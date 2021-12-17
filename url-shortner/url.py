@@ -8,6 +8,8 @@ try:
 	from urllib.request import urlopen
 except ImportError:
 	from urllib2 import urlopen
+	
+import os
 import sys
 
 def make_tiny(url):
@@ -20,6 +22,5 @@ def main():
 	for tinyurl in map(make_tiny, sys.argv[1:]):
 		print(tinyurl)
 
-		
 if __name__ == '__main__':
 	main()
